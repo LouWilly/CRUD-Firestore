@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.crud"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\328129713311f21635ada55a09c7979a\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:13:5-79
+13-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\328129713311f21635ada55a09c7979a\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\328129713311f21635ada55a09c7979a\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:14:5-67
+14-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\328129713311f21635ada55a09c7979a\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:14:22-64
+15
+16    <application
+16-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:5:5-49:19
+17        android:allowBackup="true"
+17-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\6d689682d3b23601989840083d684423\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:7:9-65
+20        android:debuggable="true"
+21        android:fullBackupContent="@xml/backup_rules"
+21-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:8:9-54
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:10:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:11:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:12:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Crud" >
+27-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:13:9-42
+28        <activity
+28-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:15:9-21:20
+29            android:name="com.example.crud.DeleteActivity"
+29-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:16:13-43
+30            android:exported="false" >
+30-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:17:13-37
+31            <meta-data
+31-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:18:13-20:36
+32                android:name="android.app.lib_name"
+32-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:19:17-52
+33                android:value="" />
+33-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:20:17-33
+34        </activity>
+35        <activity
+35-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:22:9-28:20
+36            android:name="com.example.crud.UpdateActivity"
+36-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:23:13-43
+37            android:exported="false" >
+37-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:24:13-37
+38            <meta-data
+38-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:18:13-20:36
+39                android:name="android.app.lib_name"
+39-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:19:17-52
+40                android:value="" />
+40-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:20:17-33
+41        </activity>
+42        <activity
+42-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:29:9-35:20
+43            android:name="com.example.crud.CreateActivity"
+43-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:30:13-43
+44            android:exported="false" >
+44-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:31:13-37
+45            <meta-data
+45-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:18:13-20:36
+46                android:name="android.app.lib_name"
+46-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:19:17-52
+47                android:value="" />
+47-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:20:17-33
+48        </activity>
+49        <activity
+49-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:36:9-48:20
+50            android:name="com.example.crud.MainActivity"
+50-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:37:13-41
+51            android:exported="true" >
+51-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:38:13-36
+52            <intent-filter>
+52-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:39:13-43:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:40:17-69
+53-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:40:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:42:17-77
+55-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:42:27-74
+56            </intent-filter>
+57
+58            <meta-data
+58-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:18:13-20:36
+59                android:name="android.app.lib_name"
+59-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:19:17-52
+60                android:value="" />
+60-->C:\Users\Admin\AndroidStudioProjects\CRUD-Firestore-main\CRUD-Firestore\app\src\main\AndroidManifest.xml:20:17-33
+61        </activity>
+62
+63        <service
+63-->[com.google.firebase:firebase-firestore-ktx:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\efccc04e9eaf5442602e0b9be2e5f35a\transformed\firebase-firestore-ktx-24.2.1\AndroidManifest.xml:12:9-18:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.firebase:firebase-firestore-ktx:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\efccc04e9eaf5442602e0b9be2e5f35a\transformed\firebase-firestore-ktx-24.2.1\AndroidManifest.xml:13:13-84
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\9f4758be2f028813c0c144143ecd05b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-firestore-ktx:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\efccc04e9eaf5442602e0b9be2e5f35a\transformed\firebase-firestore-ktx-24.2.1\AndroidManifest.xml:14:13-37
+67            <meta-data
+67-->[com.google.firebase:firebase-firestore-ktx:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\efccc04e9eaf5442602e0b9be2e5f35a\transformed\firebase-firestore-ktx-24.2.1\AndroidManifest.xml:15:13-17:85
+68                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+68-->[com.google.firebase:firebase-firestore-ktx:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\efccc04e9eaf5442602e0b9be2e5f35a\transformed\firebase-firestore-ktx-24.2.1\AndroidManifest.xml:16:17-126
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-firestore-ktx:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\efccc04e9eaf5442602e0b9be2e5f35a\transformed\firebase-firestore-ktx-24.2.1\AndroidManifest.xml:17:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\328129713311f21635ada55a09c7979a\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:20:13-22:85
+71                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+71-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\328129713311f21635ada55a09c7979a\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:21:17-111
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\Admin\.gradle\caches\transforms-3\328129713311f21635ada55a09c7979a\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:22:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\3f0377e58f7820e62972a87962686c23\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:15:13-17:85
+74                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+74-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\3f0377e58f7820e62972a87962686c23\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:16:17-113
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\3f0377e58f7820e62972a87962686c23\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:17:17-82
+76        </service>
+77
+78        <provider
+78-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\9f4758be2f028813c0c144143ecd05b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+79            android:name="com.google.firebase.provider.FirebaseInitProvider"
+79-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\9f4758be2f028813c0c144143ecd05b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+80            android:authorities="com.example.crud.firebaseinitprovider"
+80-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\9f4758be2f028813c0c144143ecd05b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\9f4758be2f028813c0c144143ecd05b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+82            android:exported="false"
+82-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\9f4758be2f028813c0c144143ecd05b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+83            android:initOrder="100" />
+83-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Admin\.gradle\caches\transforms-3\9f4758be2f028813c0c144143ecd05b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\0fa04b5c816d13eeec35b5641bbb11ae\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\0fa04b5c816d13eeec35b5641bbb11ae\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\0fa04b5c816d13eeec35b5641bbb11ae\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\0fa04b5c816d13eeec35b5641bbb11ae\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0f057c52197a36d1dba91003cbcd9a4d\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0f057c52197a36d1dba91003cbcd9a4d\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0f057c52197a36d1dba91003cbcd9a4d\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f7a6376a7a84d0f2cf277213ce76fb0f\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f7a6376a7a84d0f2cf277213ce76fb0f\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+96            android:authorities="com.example.crud.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f7a6376a7a84d0f2cf277213ce76fb0f\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f7a6376a7a84d0f2cf277213ce76fb0f\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f7a6376a7a84d0f2cf277213ce76fb0f\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f7a6376a7a84d0f2cf277213ce76fb0f\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f7a6376a7a84d0f2cf277213ce76fb0f\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\144c1c1e0c6768a29ff8a75c8f5fe586\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\144c1c1e0c6768a29ff8a75c8f5fe586\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\144c1c1e0c6768a29ff8a75c8f5fe586\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+104        </provider>
+105    </application>
+106
+107</manifest>
